@@ -1,0 +1,90 @@
+body {
+    font-family: "Copperplate", "fantasy";
+    background-color: #f0f0f0;
+    color: #333;
+}
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+.article {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.submit_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit_button:hover {
+    background-color: #0056b3;
+}
+img {
+    width: 20px;
+    height: auto;
+}
+/* Additional CSS styles */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.button_secondary {
+    background-color: #6c757d;
+}
+
+.button_secondary:hover {
+    background-color: #5a6268;
+}
+
+.error_message {
+    color: #dc3545;
+}
+
+.success_message {
+    color: #28a745;
+}
